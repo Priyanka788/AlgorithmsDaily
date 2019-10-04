@@ -1,9 +1,25 @@
 /*
 This is a sample file explaining the format of your code. Do not make any changes to the file.
-Author : <insertName>
-College : <insertCollege>
-Year/Department : <insertYear>/<insertDepartment>
-E-Mail Id : <insertEmail>
+Author : <Priyanka>
+College : <Guru Nanak Dev Enggering Collage>
+Year/Department : <3rd year>/<Computer Science  Enggering>
+E-Mail Id : <p7889122486@gmail.com>
 
 Insert Your Code Here
 */
+class Svce
+{
+   public static void main(String[] args)
+     {
+            String sampleSentence = "The quick     brown\tfox\njumps\n\nover the\tlazy\ndog";
+            String[] words = sampleSentence.split("\\s+");
+            int itemCount = words.length;
+             System.out.println("The number of words is: " + itemCount);
+  
+        /* for (int i = 0; i < itemCount; i++) 
+           {
+               String word = words[i];
+              System.out.println(word);
+           }*/
+     }
+}
